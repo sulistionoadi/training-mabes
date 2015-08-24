@@ -1,0 +1,51 @@
+scm = source code management (git - scm)
+
+
+repo sisi local & repo sisi server
+
+- local ada di komputer sendiri
+	di lokal di bagi menjadi 3
+		1. workspace
+			fungsinya seperti folder/directory/area kerja
+		2. staging area
+			fungsinya sebagai wilayah untuk menampung perubahan
+			perubahan yang ditambah di workspace, kemudian commit ke staging area
+		3. local repo
+			fungsinya untuk melakukan versioning/ history perubahan
+
+
+dari workspace ke staging area istilahnya add, dari staging area ke local repo istilahnya commit..
+
+setelah di commit, kemudian dikirim ke server dengan istilah push
+
+narik data dari server, menggunakan istilah pull, pull = langsung dari server ke local kita
+
+
+- server
+	terbagi menjadi
+		1. remote repo
+
+
+
+
+
+
+- perintah git init untuk menginisialisasi folder training dah hasilnya akan membuat folder .git(hidden) untuk menyimpan history
+- git add notes.txt = untuk memindahkan dari workspace ke staging area
+- git commit -m "commit pertama kali" = untuk memindahkan dari staging area ke local repo
+
+- git status = untuk melihhat status file yg sudah di commit, add = warna ijo, commit = hilang
+- git log = untuk melihat apa aja yg di commit, authornya, tanggalnya
+
+
+bikin id github.
+masuk ke setting ke ssh keys
+
+masuk ke git bash ketik ssh-keygen
+buka file publisher dengan notepad, copy isinya kmudian copy and submit
+
+
+- git remote add origin git@github.com:sulistionoadi/training-mabes.git
+	(origin adalah alias dari git@github)
+- git remote -v (untuk cek yg sudah di push)
+- 
