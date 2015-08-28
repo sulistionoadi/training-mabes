@@ -1,0 +1,44 @@
+inheritance (pewarisan)
+mmerupakan sebuah anak class
+
+setiap bikin class atau objek jangan lupa bikin getter and setternya
+
+setiap pewaris tidak boleh lebih dari 1 parent
+artinya setiap child class tidak boleh memiliki lebih dari 1 parent class
+
+keyword
+----------------------
+
+extends : menentukan superclass / parant class
+super : digunakan untuk memanggil parent class
+abstrac :
+@override : mengganti isi method yang ada di super class
+
+
+class interface
+---------------
+method yang didalamnya pasti abstract semua
+
+
+implement (Encapsulation)
+----------
+bisa mempunyai lebih dari satu parent
+
+extends (inherintance)
+---------------
+hanya 1 parent
+
+
+
+Collection
+-----------------------------------
+coleection turunan dari object
+
+macam macam collection
+
+- map <k,v> key dan value (generic type) key= kolomnnya, value = isinya
+- List <T> generic type
+- Set <T>
+- Tree <T>
+- Sorting
+

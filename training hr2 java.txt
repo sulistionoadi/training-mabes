@@ -1,0 +1,111 @@
+pemrograman dasar
+input proses output
+
+input : perintah / statement
+di proses menghasilkan output
+output : hasil
+
+
+2 jenis pemrograman
+- tanpa compiler : html, php, js css
+- dengn compiler : java, c, delphi
+
+java ketika dicompille akan menghasilkan sebuah 
+- class = setiap file di compile jadi class, class bisa di running
+- jar 1 project di compile bisa menghasilkan jar
+- war 
+
+di java 1 file = 1 class
+antara nama file dengan nama class harus sama
+
+bikin file di notepad dengan nama Hallo.java
+di compile di cmd dengan perintah (javac Hallo.java)
+kemudian running utk liat hasil dengan perintah (java Hallo)
+
+
+
+aturan dalam java
+-----------------
+1. class
+-----------------
+* Penulisan nama Class harus sama dengan nama file
+
+* Penulisan nama Class diawali dengan huruf kapital
+  contoh : Hallo --> File : Hallo.java
+
+* jika nama class lebih dari satu kata, maka huruf pertama kata berikutnya adalah huruf kapital
+  contoh : HalloBandung --> File : HalloBandung.java
+------------------
+
+2. Method / Property
+------------------
+
+- method sama seperti function
+- property sama seperti variable
+- method pasti ada return value
+
+* Penulisan nama class diawali dengan huruf kecil
+  contoh : hitung()
+
+* jika nama class lebih dari satu kata, maka huruf pertama kata berikutnya adalah huruf kapital
+  contoh : proccessBod()
+
+-----------------------------------------------------------------------------------------------
+
+
+Tipe Data
+---------
+tipe data di bagi 2
+- Primitif
+	- int		= numeric
+	- Integer	= numeric (bilangan bulat)
+	- float		= numeric (bilangan pecahan)
+	- double	= numeric (bilangan pecahan) double bisa juga Double = fungsinya sama
+	- char		= 1 karakter 'A' '/' '1' char petik
+	- String	= Kumpulan karakter "Mas Rio" string kutip
+	- BigDecimal	= untuk nominal / mata uang
+	- Date		= tanggal
+
+- Reference
+	- Array		= symbol []
+			  contoh : Integer[] nilai
+			           String[] nama
+				   Date[] tanggllahir
+			  contoh : String[] nama = {"Hakam","Rio","Agung"};
+	
+	- Object	= 
+
+
+
+OOP (Object Oriented Programming)
+---------------------------------
+keunggulan java oopnya
+library dalam java = add ons / plugin plugin
+
+OOP merepresentasikan kehidupan ke dalam bahasa programming
+contoh kita membuat sistem absensi, apa yang dibutuhkan??? contoh data karyawan, absensi
+maka kita merepresentasikan karyawan ke dalam class,, class karyawan (object karyawan)
+
+setiap class, secara default punya 1 constructor (namanya adalah constructor kosong)
+nama constroctor sama dengan nama class
+constructor di java bisa lebih dari 1
+
+constructor adalah menginstance kan sebuah object atau, membuat object baru
+
+-----------------------------------------------------------------------------------------
+
+keyword dalam java
+------------------
+keyword yang bewarna biru
+- public	= property/method ini bisa digunakan di class manapun
+- private	= property/method ini hanya bisa digunakan di class itu sendiri
+- import	= memanggil dan menggunakan class dari package lain
+- package	= sama seperti folder. digunakan untuk menempatkan/menyimpan class
+- void		= digunakan untuk method tanpa return value
+- static	= untuk mendeklarasikan variable, agar bisa digunakan tanpa membuat object terlebih dahulu,, untuk menerangkan bahwa method ini/property ini miliknya si class
+- new		= untuk membuat object baru
+
+-->besok
+extends		= menentukan parent class / superclass
+implements	= menentukan iinterface
+

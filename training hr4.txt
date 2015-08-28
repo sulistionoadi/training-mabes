@@ -1,0 +1,40 @@
+1. get -->untuk mengambil data
+2. post->> utk mnyimpan data
+3. put-->untuk mengupdate data
+4. http delete -> utnk mendelete data
+
+sebuah project biasanya mempunyai :
+1. source code
+2. File Executable / hasil proses kompilasi dari #1
+3. Library
+4. File report / Laporan
+5. File image
+
+
+Maven :
+1. mempunyai 1 file konfigurasi utama namanya pom.xml (project object model) yang berisi
+   - identitas project
+   - Library yang ingin dipakai di project tsb.
+   - plugin yang digunakan di project tsb, biasanya :
+	+ untuk proses compile (build)
+	+ untuk proses running aplikasi (klo diweb, biasanya pakai plugin tomcat/jetty)
+
+
+
+2. perintah mvn install = 
+	- compile, package, install
+
+3. maven lifecycle :
+	- validate : utk validasi project
+	- compile : utk compile source code
+	- test : melakukan proses test
+	-package :melakukan proses pemaketan hasil proses compile
+	- integration-test : proses dan deploy package ke integration set
+	- verify : jalankan pengecekan bahwa package-nya valid
+	- install: install package ke lokal repo(.m2)
+	- deploy : copy final package ke remote repo
+   ada 2 tambahan lagi yaitu :
+	- clean : bershikan artifat dari proses build sebelumnya
+	- site : generate site documentation untuk project ini
+
+ 
