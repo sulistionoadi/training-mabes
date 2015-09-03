@@ -21,17 +21,17 @@ method yang didalamnya pasti abstract semua
 
 
 implement (Encapsulation)
-----------
+-------------------------
 bisa mempunyai lebih dari satu parent
 
 extends (inherintance)
----------------
+----------------------
 hanya 1 parent
 
 
 
 Collection
------------------------------------
+------------------------------
 coleection turunan dari object
 
 macam macam collection

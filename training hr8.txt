@@ -1,0 +1,23 @@
+keuntungan maven
+- bisa dibuka di berbabagi id
+- mensentrallkan library
+
+
+JDBC
+----
+suatau API yang tersedia didalam java
+API java yang bisa menjembatani aplikasi dengan database
+
+apabila ada manipulasi data 
+menggunakan .executeUpdate
+- insert, update, delete, drop, alter
+
+
+untuk select executeQuery
+- 
+
+
+bikin database, table, insert beberapa data, kemudian di select, kemudian di export ke txt
+
+
+git note : git -am 'kkkkkkkkkkkkkk'

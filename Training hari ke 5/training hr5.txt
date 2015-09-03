@@ -1,0 +1,40 @@
+collection (array)
+------------------
+contoh di JS : var menu[[10] = new Array[10];
+
+
+collection di java seperti rak rak buku
+
+List, map, set adalah interface, interface pasti membutuhkan implementasi
+
+List
+-----
+- Array biasa dengan index mengikuti. artinya dinamis
+  mengikuti kebutuhan data.
+- List utk urutannya mengikuti apa yg ditambahkan, kita tidak bisa menambahkan 
+  secara acak tapi ditampilkan urut
+
+- cara untuk mengurutkannya menggunakan sort
+- cara untuk mengecek apakah datanya ada tanpa menggunakan looping / for 
+  dengan menggunakan contains
+
+
+
+
+
+Map
+-----
+- Kombinasi key - value, contoh data:
+  Key	 | Value
+  nama	 | Joko
+  alamat | Mampang
+
+- map biasanya implementasinya pake hash map
+
+
+
+set
+---
+- Di dalam set tidak ada data yg duplicate, dijamin unique.
+- set list array yang datanya tidak duplicate
+

@@ -37,4 +37,7 @@ Maven :
 	- clean : bershikan artifat dari proses build sebelumnya
 	- site : generate site documentation untuk project ini
 
+
+C:\Users\AP>mvn archetype:generate -DgroupId=com.evaluasi1 -DartifactId=belajar-
+maven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
  

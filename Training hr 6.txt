@@ -1,0 +1,22 @@
+java io
+
+Buffered Reader
+---------------
+- untuk membaca isi dalam file
+- dibaca perbaris
+
+FileInputStream 
+---------------
+- dibaca perbyte
+- dibaca perkolom
+
+
+exception
+-----------
+- suatu masalah yg ada di aplikasi kita
+- ada 2 
+	- runtime exception
+	- exception biasa
+
+
+https://github.com/jimmyrengga/belajar
